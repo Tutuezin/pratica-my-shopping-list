@@ -13,3 +13,8 @@ export function errorTypeToStatusCode(type: AppErrorTypes) {
   if (type === 'not_found') return 404;
   return 400;
 }
+//export function errorTypeToStatusCode(type: AppErrorTypes) {
+  //if (type === 'conflict') return 409;
+  //if (type === 'not_found') return 404;
+  //return 400;
+//}
